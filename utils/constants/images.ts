@@ -1,0 +1,16 @@
+export const ICON_FAIL = require('@assets/images/ic_fail.png');
+export const ICON_SETTING = require('@assets/images/ic_setting.png');
+export const ICON_MIC = require('@assets/images/ic_mic.png');
+export const ICON_MIC_MUTE = require('@assets/images/ic_mic_mute.png');
+export const ICON_WIFI = require('@assets/images/ic_wifi.png');
+export const ICON_KEYBOARD = require('@assets/images/ic_keyboard.png');
+export const ICON_RADIO_CHECKED = require('@assets/images/ic_radiobutton_checked.png');
+export const ICON_RADIO_UNCHECKED = require('@assets/images/ic_radiobutton_unchecked.png');
+export const ICON_NAVBAR_BG = require('@assets/images/ic_navbar_bg.png');
+export const ICON_ARROW = require('@assets/images/ic_arrow.png');
+export const ICON_MESSAGE = require('@assets/images/ic_message.png');
+export const ICON_USER = require('@assets/images/ic_user.png');
+export const ICON_PASSWORD = require('@assets/images/ic_lock.png');
+export const ICON_MENU = require('@assets/images/ic_menu.png');
+export const ICON_CALENDAR = require('@assets/images/ic_calendar.png');
+export const ICON_LEFTARROW = require('@assets/images/ic_leftArrow.png');

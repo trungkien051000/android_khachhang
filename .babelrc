@@ -1,0 +1,47 @@
+{
+    "presets": ["module:metro-react-native-babel-preset"],
+    "plugins": [
+        [
+            "module:react-native-dotenv",
+            {
+                "moduleName": "@env",
+                "path": ".env",
+                "blacklist": null,
+                "whitelist": null,
+                "safe": false,
+                "allowUndefined": true
+            }
+        ],
+        [
+            "babel-plugin-root-import",
+            {
+                "paths": [
+                    {
+                        "rootPathSuffix": "./assets",
+                        "rootPathPrefix": "@assets"
+                    },
+                    {
+                        "rootPathSuffix": "./components",
+                        "rootPathPrefix": "@components"
+                    },
+                    {
+                        "rootPathSuffix": "./interfaces",
+                        "rootPathPrefix": "@interfaces"
+                    },
+                    {
+                        "rootPathSuffix": "./redux",
+                        "rootPathPrefix": "@redux"
+                    },
+                    {
+                        "rootPathSuffix": "./screens",
+                        "rootPathPrefix": "@screens"
+                    },
+                    {
+                        "rootPathSuffix": "./utils",
+                        "rootPathPrefix": "@utils"
+                    }
+                ]
+            }
+        ]
+    ]
+}

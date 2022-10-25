@@ -1,0 +1,65 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "jsx": "react-native",
+    "allowJs": true,
+    "strict": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "baseUrl": ".",
+    "typeRoots": [
+      "./node_modules/@types",
+      "./interfaces"
+    ],
+    "lib": [
+      "dom",
+      "es2017"
+    ],
+    "paths": {
+      "@assets/*": [
+        "./assets/*"
+      ],
+      "@components/*": [
+        "./components/*"
+      ],
+      "@interfaces/*": [
+        "./interfaces/*"
+      ],
+      "@redux/*": [
+        "./redux/*"
+      ],
+      "@screens/*": [
+        "./screens/*"
+      ],
+      "@utils/*": [
+        "./utils/*"
+      ]
+    },
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true
+  },
+  "exclude": [
+    "node_modules",
+    "metro.config.js",
+    "**/*.spec.ts",
+    "**/*.spec.tsx",
+    "**/*.test.ts",
+    "**/*.test.tsx",
+    "coverage"
+  ],
+  "include": [
+    "**/*.ts",
+    "**/*.tsx"
+  ]
+}
